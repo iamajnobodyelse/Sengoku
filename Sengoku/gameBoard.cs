@@ -5,10 +5,7 @@ using System.Text;
 
 namespace Sengoku
 {
-    class main
+    class gameBoard
     {
-        static void main(string[] args)
-        {
-        }
     }
 }

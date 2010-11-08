@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Sengoku
 {
-    class Program
+    class program
     {
-        static void Main(string[] args)
+        static void main(string[] args)
         {
         }
     }

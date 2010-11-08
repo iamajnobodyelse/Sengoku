@@ -5,10 +5,7 @@ using System.Text;
 
 namespace Sengoku
 {
-    class main
+    class winConditions
     {
-        static void main(string[] args)
-        {
-        }
     }
 }
