@@ -7,5 +7,10 @@ namespace Sengoku
 {
     class turn
     {
+        public turn()
+        { 
+
+        }
+
     }
 }

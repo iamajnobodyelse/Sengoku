@@ -7,5 +7,16 @@ namespace Sengoku
 {
     class players
     {
+        public enum playerClass { Uppercase, Lowercase };
+
+        void upperPlayer()
+        {
+
+        }
+
+        void lowerPlayer()
+        {
+
+        }
     }
 }

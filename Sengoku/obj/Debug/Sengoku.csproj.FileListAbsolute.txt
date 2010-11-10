@@ -1,0 +1,5 @@
+C:\Users\PyroTech\Documents\Homework\CSC202\Sengoku\Sengoku\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PyroTech\Documents\Homework\CSC202\Sengoku\Sengoku\bin\Debug\Sengoku.exe
+C:\Users\PyroTech\Documents\Homework\CSC202\Sengoku\Sengoku\bin\Debug\Sengoku.pdb
+C:\Users\PyroTech\Documents\Homework\CSC202\Sengoku\Sengoku\obj\Debug\Sengoku.exe
+C:\Users\PyroTech\Documents\Homework\CSC202\Sengoku\Sengoku\obj\Debug\Sengoku.pdb

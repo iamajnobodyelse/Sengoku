@@ -7,5 +7,9 @@ namespace Sengoku
 {
     class winConditions
     {
+        public winConditions()
+        {
+
+        }
     }
 }

@@ -5,7 +5,11 @@ using System.Text;
 
 namespace Sengoku
 {
-    class boardSquare
+    class cursorMovement
     {
+        void cursorMovement()
+        {
+        Console.SetCursorPosition(1, 1);
+        }
     }
 }
