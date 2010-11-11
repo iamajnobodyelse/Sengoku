@@ -29,6 +29,11 @@ namespace Sengoku
             Console.WriteLine("+-+-+-+-+-+-+");
             Console.WriteLine("| | | | | | |");
             Console.WriteLine("+-+-+-+-+-+-+");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("   Player Uppercase: 0");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("   Player Lowercase: 0");
+            Console.ForegroundColor = ConsoleColor.White;
             cursorMovement cursorMovement = new cursorMovement();
         }
     }

@@ -50,6 +50,7 @@
     <Compile Include="cursorMovement.cs" />
     <Compile Include="gameBoard.cs" />
     <Compile Include="gamePieces.cs" />
+    <Compile Include="gameState.cs" />
     <Compile Include="players.cs" />
     <Compile Include="Program.cs">
       <SubType>Code</SubType>

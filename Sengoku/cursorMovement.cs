@@ -7,6 +7,7 @@ namespace Sengoku
 {
     class cursorMovement
     {
+
         int x = 1;
         int y = 1;
 
@@ -20,8 +21,10 @@ namespace Sengoku
         int bfy = 0;
 
         bool move = true;
+        bool grabbed = false;
+        char grab;
 
-        public cursorMovement()
+        public cursorMovement(gameBoard argh, turn now)
         {
             Console.SetCursorPosition(1, 1);
 
@@ -64,19 +67,29 @@ namespace Sengoku
                         boardx = boardx + bfx;
                         boardy = boardy + bfy;
                     }
-                    if (x < 0 || x > 12 || y < 0 || y > 11) //This defines the edges of cursor movement
+                    if (x < 0 || x > 12 || y < 0 || y > 12) //This defines the edges of cursor movement
                     {
                         x = x - fx;
                         y = y - fy;
                     }
                     if (key == ConsoleKey.Spacebar)
                     {
-                        //gameBoard.board argh = new gameBoard.board();
-                        //Console.Write(argh [boardy, boardx]);
+                        if (grabbed == true)
+                        {
+                            (argh.board[boardy, boardx]) = grab;
+                            grabbed = false;
+                            move = false;
+                        }
+                        else if (grabbed != true)
+                        {
+                            grab = (argh.board[boardy, boardx]);
+                            grabbed = true;
+                        }
                     }
                     Console.SetCursorPosition(x, y);
                 }
             }
+
         }
     }
 }
