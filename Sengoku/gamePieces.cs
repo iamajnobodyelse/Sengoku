@@ -18,5 +18,6 @@ namespace Sengoku
             this.rank = rank;
             this.playerClass = playerClass;
         }
+
     }
 }

@@ -10,7 +10,8 @@ namespace Sengoku
         static void Main(string[] args)
         {
             Console.Title = "Sengoku";
-            Console.SetWindowSize(25, 22);
+            Console.SetWindowSize(25, 25);
+            //Console.SetWindowSize(35, 35);
 
             gameBoard gameBoard = new gameBoard();
             players players = new players();
