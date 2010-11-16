@@ -33,8 +33,12 @@ namespace Sengoku
             Console.WriteLine("   Player Uppercase: 0");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("   Player Lowercase: 0");
+            /*Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("   Player Uppercase: 0");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("   Player Lowercase: 0");*/
             Console.ForegroundColor = ConsoleColor.White;
-            cursorMovement cursorMovement = new cursorMovement();
+            cursorMovement movement = new cursorMovement(null, null);
         }
     }
 }

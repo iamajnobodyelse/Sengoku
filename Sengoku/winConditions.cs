@@ -9,6 +9,11 @@ namespace Sengoku
     {
         public winConditions()
         {
+            /*if (turn.turnNumber = 200)
+            {
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("GAME OVER due to turns");
+            }*/
 
         }
     }
